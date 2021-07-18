@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" type="image/png" href="./images/zing-mp3.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+        <div class="app-left">
+            <div class="app__logo">
+                <a href="#">
+                    <img src="./images/logo-mp3.png" alt="">
+                </a>
+            </div>
+            <div class="app__list">
+                <ul>
+                    <li data-item="0">
+                        <i class="fas fa-music"></i>
+                        <span>Cá Nhân</span>
+                    </li>
+                    <li data-item="1">
+                        <i class="fas fa-compact-disc"></i>
+                        <span>Khám Phá</span>
+                    </li>
+                    <li data-item="2">
+                        <i class="fas fa-podcast"></i>
+                        <span>Zing Chart</span>
+                    </li>
+                    <li data-item="3">
+                        <i class="fas fa-microphone-alt"></i>
+                        <span>Radio</span>
+                    </li>
+                    <li data-item="4">
+                        <i class="far fa-eye"></i>
+                        <span>Theo dõi</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="app-center">
+            <section class="app-center__top">
+                <div class="top-fixed">
+                    <div class="top-search">
+                        <span class="top-search__prev active">
+                            <a href="./index.html"><i class="fas fa-arrow-left"></i></a>
+                            
+                        </span>
+                        <div class="top-search__input">
+                            <span class="icon-search">
+                                <i class="fas fa-search"></i>
+                            </span>
+                            <input type="text" placeholder="Nhập tên bài hát, nghệ sĩ hoặc MV...">
+                        </div>
+                    </div>
+                    <div class="top-list">
+                        <ul>
+                            <li><i class="fas fa-tshirt tshirt"></i></li>
+                            <li class="upload-song">
+                                <i class="fas fa-upload upload"></i>
+                                <div class="form-upload">
+                                    <div class="form-item">
+                                        <label for="path">Song</label>
+                                        <input type="text" class="song-name-up text" placeholder="Song">
+                                    </div>
+                                    <div class="form-item">
+                                        <label for="path">Singer</label>
+                                        <input type="text" class="song-singer text" placeholder="Singer">
+                                    </div>
+                                    <div class="form-item file">
+                                        <label for="path">Path</label>
+                                        <input type="file" name="path" class="song-path">
+                                    </div>
+                                    <div class="form-item file">
+                                        <label for="image">Image</label>
+                                        <input type="file" name="image" class="song-image">
+                                    </div>
+                                    <input type="submit" value="Thêm" class="submit">
+                                    <span id="alert"></span>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="fas fa-cog setting"></i>
+                                <div class="setting-show">
+                                    <div class="setting-show__top">
+                                        <div class="_1item">
+                                            <div class="_1item-left">
+                                                <i class="fas fa-ban"></i>
+                                                <span>Danh sách chặn</span>
+                                            </div>
+                                        </div>
+                                        <div class="_1item">
+                                            <div class="_1item-left">
+                                                <i class="fas fa-shield-alt"></i>
+                                                <span>Chất lượng nhạc</span>
+                                            </div>
+                                            <div class="_1item-right">
+                                                <i class="fas fa-chevron-right"></i>
+                                            </div>
+                                            <div class="_1item-hover1">
+                                                <div class="item">
+                                                    <h5>SQ 128</h5>
+                                                    <p>Giảm sử dụng dữ liệu cho các kết nối chậm hơn.</p>
+                                                </div>
+                                                <div class="item">
+                                                    <h5>HQ 320</h5>
+                                                    <p>Kết hợp tốt nhất giữa việc sử dụng dữ liệu và chất lượng âm thanh.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="_1item" id="item2">
+                                            <div class="_1item-left">
+                                                <i class="far fa-stop-circle"></i>
+                                                <span>Trình phát nhạc</span>
+                                            </div>
+                                            <div class="_1item-right">
+                                                <i class="fas fa-chevron-right"></i>
+                                            </div>
+                                            <div class="_1item-hover1">
+                                                <span>Luôn phát nhạc toàn màn hình</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="setting-show__bottom">
+                                        <div class="_1item">
+                                            <span>Giới thiệu</span>
+                                            <i class="far fa-list-alt"></i>
+                                        </div>
+                                        <div class="_1item">
+                                            <span>Góp ý</span>
+                                            <i class="far fa-list-alt"></i>
+                                        </div>
+                                        <div class="_1item">
+                                            <span>Liên hệ</span>
+                                            <i class="far fa-list-alt"></i>
+                                        </div>
+                                        <div class="_1item">
+                                            <span>Quảng cáo</span>
+                                            <i class="far fa-list-alt"></i>
+                                        </div>
+                                        <div class="_1item">
+                                            <span>Thỏa thuận sử dụng</span>
+                                            <i class="far fa-list-alt"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li><img src="./images/user.jpg" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+        
+            </section>
+            
+            <div class="app-center-content">
+                <div class="left">
+                    <div class="image-left">
+                        <img src="" alt="">
+                        <i class="far fa-play-circle circle"></i>
+                    </div>
+                    
+                    <span class="text-heading">Nhạc việt nghe gì?</span>
+                    <button class="continue" type="button">Tiếp tục phát</button>
+                </div>
+                <div class="right">
+                    <div class="songs">
+
+                    </div>
+                    
+                </div>
+            </div>
+
+            
+        </div>
+
+        <div class="app-bottom">
+                <div class="app-bottom__left">
+                    <div class="information">
+                        <img src="" alt="" class="cd">
+                        <div class="song-play">
+                            <span class="song-name">Xe anh đến đâu em theo đến đó</span>
+                            <span class="song-singer1">Dương Hoàng Yến</span>
+                        </div>
+                    </div>
+            
+                    <div class="icon">
+                        <span class="icon-heart">
+                            <i class="far fa-heart"></i>
+                            <i class="fas fa-heart"></i>
+                        </span>
+                        <span class="icon-more">
+                            <i class="far fa-caret-square-down"></i>
+                        </span>
+                    </div>
+            
+                </div>
+                <div class="app-bottom__center">
+                    <div class="control">
+                        <div class="btn btn-repeat">
+                            <i class="fas fa-redo redo"></i>
+                            <i class="fas fa-reply reply"></i>
+                        </div>
+                        <div class="btn btn-prev">
+                            <i class="fas fa-step-backward"></i>
+                        </div>
+                        <div class="btn btn-toggle-play">
+                            <i class="fas fa-pause icon-pause"></i>
+                            <i class="fas fa-play icon-play"></i>
+                        </div>
+                        <div class="btn btn-next">
+                            <i class="fas fa-step-forward"></i>
+                        </div>
+                        <div class="btn btn-random">
+                            <i class="fas fa-random"></i>
+                        </div>
+                    </div>
+                    <input id="progress" class="progress" type="range" value="0" step="0.1" min="0" max="100">
+                    <audio id="audio" src=""></audio>
+                </div>
+                <div class="app-bottom__right">
+                    <div class="set-volumn">
+                        <div class="btn-volumn">
+                            <i class="fas fa-volume-up up"></i>
+                            <i class="fas fa-volume-mute mute"></i>
+                        </div>
+                        <input id="volumn" class="volumn" type="range" value="0" step="0.1" min="0" max="100">
+                    </div>
+                    <div class="list-song">
+                        <i class="far fa-file-audio"></i>
+                    </div>
+                </div>
+        </div>
+
+        <div class="list">
+            <h3 class="list-heading">Danh sách phát</h3>
+            <div class="songs">
+        
+            </div>
+        </div>
+        
+        <div class="mouse-click">
+            <ul>
+                <li>
+                    <i class="fas fa-podcast"></i>
+                    <span>Quay lại</span>
+                </li>
+                <li>
+                    <i class="fas fa-podcast"></i>
+                    <span>Tiếp theo</span>
+                </li>
+                <li>
+                    <i class="fas fa-podcast"></i>
+                    <span>Tải lại trang</span>
+                </li>
+                <li>
+                    <i class="fas fa-podcast"></i>
+                    <span>Khám phá</span>
+                </li>
+                <li>
+                    <i class="fas fa-podcast"></i>
+                    <span>Nhạc cá nhân</span>
+                </li>
+            </ul>
+        </div>
+
+    <script src="./js/script.js"></script>
+    <script src="./js/playlist.js"></script>
+</body>
+
+</html>

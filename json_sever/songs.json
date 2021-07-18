@@ -1,0 +1,64 @@
+{
+    "songs" : [
+        {
+                "name": "Tháng năm",
+                "singer": "Soobin Hoàng Sơn",
+                "path": "./music/ThangNamSpecialPerformance.mp3",
+                "images": "./images/SoobinHoangSon.jpg"
+            },
+            {
+                "name": "Phố đã lên đèn",
+                "singer": "Huyền Tâm Môn",
+                "path": "./music/pho-da-len-den.mp3",
+                "images": "./images/pho-da-len-den.jpg"
+            },
+            {
+                "name": "Xe anh đến đâu em theo đến đó",
+                "singer": "Dương Hoàng Yến ft Đạt G",
+                "path": "./music/XeAnhDenDauEmTheoDenDo.mp3",
+                "images": "./images/DuongHoangYen.jpg"
+            },
+            {
+                "name": "Độ đúng đời",
+                "singer": "Độ Mixi",
+                "path": "./music/DoDungDoi.mp3",
+                "images": "./images/domixi.jpg"
+            },
+            {
+                "name": "Phải chăng em đã yêu",
+                "singer": "Juky San",
+                "path": "./music/PhaiChangEmDaYeu.mp3",
+                "images": "./images/JukySan.jpg"
+            },
+            {
+                "name": "Sài Gòn đau lòng quá",
+                "singer": "Hứa Kim Tuyền",
+                "path": "./music/SaiGonDauLongQua.mp3",
+                "images": "./images/HuaKimTuyen.jpg"
+            },
+            {
+                "name": "Yêu Thầm",
+                "singer": "Hoàng Yến Chibi ft Tlinh",
+                "path": "./music/YeuTham.mp3",
+                "images": "./images/HoangYen.jpg"
+            },
+            {
+                "name": "Stream đến bao giờ ?",
+                "singer": "Độ Mixi",
+                "path": "./music/StreamDenBaoGio.mp3",
+                "images": "./images/domixi2.jpg"
+            },
+            {
+                "name": "Nàng thơ",
+                "singer": "Hoàng Dũng",
+                "path": "./music/NangTho.mp3",
+                "images": "./images/HoangDung.jpg"
+            },
+            {
+                "name": "Mơ hồ",
+                "singer": "Bùi Anh Tuấn",
+                "path": "./music/MoHo.mp3",
+                "images": "./images/BuiAnhTuan1.jpg"
+            }
+    ]
+}
